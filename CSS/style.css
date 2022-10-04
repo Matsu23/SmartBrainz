@@ -1,0 +1,153 @@
+
+	
+@layer bootstrap, customStyle;
+@import url('bootstrap.min.css') layer(bootstrap);
+
+
+
+
+@layer customStyle{
+	:root{
+		--search: #846845;
+		--bg: #322492;
+		--contrast:#ff8e01;
+	}
+	
+	
+	
+	.logo{
+		width:20%;
+		max-width:150px;
+		float:left;
+	}
+	
+	body{
+		background-color: var(--bg);
+	}
+	
+	.search{
+		border-color:orange;
+		border-style:solid;
+		border-width:5px;
+		width:60%;
+		height:65px;
+		background-color:inherit;
+		color:var(--search);
+		font-size:2rem;
+
+	}
+	
+	
+	.cardsContainer{
+		display:flex;
+		width:90%;
+		margin:auto;
+		flex-flow:row wrap;
+		align-content:space-between;
+		justify-content:space-between;
+	}
+	
+	/*@media only screen and (max-width: 800px) {
+		.cardsContainer {
+			flex-direction: column;
+			
+		}
+	}*/
+	
+	.card-title{
+		
+		color:var(--contrast);
+		
+	}
+	
+	hr{
+		
+		color:white;
+		border-width:2px;
+	}
+	
+	.card-text{
+		color:white;
+	}
+	
+	.cartao{
+		padding-bottom:35px;
+		padding-right:20px;
+		padding-left:20px;
+		padding-top:10px;
+		margin:10px;
+		border-radius:30px;
+		border-width:10px;
+		border-style:solid;
+		border-color:var(--contrast);
+		background-color:rgba(50, 168, 82, 0.2);
+		
+	}
+	
+	
+	.flexBox{
+		display:flex;
+		
+		
+	}
+	
+	.flexCenter{
+		justify-content:center;
+		
+		
+	}
+	
+	.flexColCenter{
+		
+		align-items:center;
+	}
+	
+	.flexCol{
+		flex-direction:column;
+	}
+	
+	
+	button{
+		background-color:var(--contrast);
+		font-size:2rem;
+		border:none;
+		border-radius:10px;
+		padding:10px;
+	}
+	
+	.button{
+		background-color:var(--contrast);
+		font-size:2rem;
+		border:none;
+		border-radius:10px;
+		padding:10px;
+	}
+	
+	button a{
+		text-decoration-line:none;
+		
+	}
+	
+	.baselineText{
+		position:relative;
+		top:40px;
+	}
+	
+
+	.entrada{
+		border-color:orange;
+		border-style:solid;
+		border-width:5px;
+		width:60%;
+		height:65px;
+		background-color:white;
+		color:var(--search);
+		font-size:2rem;
+		
+	}
+
+	
+	
+	
+	
+};
